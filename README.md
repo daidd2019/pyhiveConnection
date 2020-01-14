@@ -12,7 +12,7 @@ pip install thrift_sasl
 pip install PyHive
 pip install kazoo
 
-yum install -y python36
+yum install -y python36 python36-devel
 pip3 install thrift
 pip3 install sasl
 pip3 install thrift_sasl
