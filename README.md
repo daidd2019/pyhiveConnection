@@ -12,6 +12,12 @@ pip install thrift_sasl
 pip install PyHive
 pip install kazoo
 
+yum install -y python36
+pip3 install thrift
+pip3 install sasl
+pip3 install thrift_sasl
+pip3 install PyHive
+pip3 install kazoo
 
 ## client for ubuntu
 sudo apt-get install python-pip
@@ -24,6 +30,12 @@ sudo pip install thrift_sasl
 sudo pip install PyHive
 sudo pip install kazoo
 
+sudo apt-get install python3-pip
+sudo pip3 install thrift
+sudo pip3 install sasl
+sudo pip3 install thrift_sasl
+sudo pip3 install PyHive
+sudo pip3 install kazoo
 
 # example
 ```python
