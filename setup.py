@@ -2,11 +2,11 @@ from distutils.core import setup
 
 setup(
     name='pyhiveConnection',
-    version='1.0.0',
+    version='1.1.0',
     packages=['pyhiveConnection'],
-    url='https://github.com/peng128/pyhiveConnection.git',
+    url='https://github.com/daidd2019/pyhiveConnection.git',
     license='',
-    author='wangpeng23',
+    author='liuhb',
     author_email='',
     description='',
 )
