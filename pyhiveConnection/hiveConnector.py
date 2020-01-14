@@ -20,7 +20,7 @@ def ConnKRB(zkhost, znodeName, serviceKeyword, database):
         index = random.randint(0, hostLength - 1)
         hostStr = hostList.pop(index).split(":")
         try:
-            conn = hive.Connection(host=hostStr[0], port=hostStr[1], database=database, auth='KERBEROS',
+            conn = hive.Connection(host=hostStr[0], port=int(hostStr[1]), database=database, auth='KERBEROS',
                                    kerberos_service_name="hive")
             isConnected = True
         except:
